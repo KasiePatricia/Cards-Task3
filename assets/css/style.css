@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c5c0c0;
+}
+
+.container{
+    width: 360px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ht1 {
+    height: 367px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-text {
+    padding-left: 10px;
+}
+
+.profile-text h1 {
+    font-size: 20px;
+}
+
+.profile-text p {
+    color: #78858F;
+    font-size: 15px;
+}
+
+.footer {
+    color: #78858F;
+    position: absolute;
+    top: 310px;
+    left: 25px;
+    bottom: 0;
+    right: 0;
+}
+
+/* card 2 */
+
+.header2 {
+    padding-block: 20px;
+    padding-left: 25px;
+}
+
+.ht2 {
+    height: 312px;
+}
+
+.footer2 {
+    color: #78858F;
+    position: absolute;
+    top: 260px;
+    left: 25px;
+    bottom: 0;
+    right: 0;
+}
+
+.hero2 h2 {
+    font-weight: 700;
+    font-size: 29px;
+    position: absolute;
+    top: 130px;
+    left: 25px;
+    bottom: 30px;
+    right: 25px;
+}
+
+/* card 4 */
+
+.ht4 {
+    height: 449px;
+}
+
+.footer4 {
+    color: #78858F;
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    bottom: 0;
+    right: 0;
+}
+
+.hero4 h2 {
+    font-weight: 700;
+    font-size: 29px;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    bottom: 0;
+    right: 25px;
+}
+
+.hero4 img {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* card 5 */
+
+.ht5{
+    height: 449px;
+}
+
+.header button {
+    padding: 5px 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+}
+
+.header button:hover {
+    background-color: orange;
+}
+
+.hero5 h2 {
+    font-weight: 700;
+    font-size: 29px;
+    position: absolute;
+    top: 300px;
+    left: 25px;
+    bottom: 0;
+    right: 25px;
+}
+
+.hero5 img {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* card 6 */
+
+
+.ht6 {
+    height: 449px;
+}
+
+/* card 7 */
+
+.ht7 {
+    height: 533px;
+}
+
+.mainbtn{
+    background-color: #EB3349;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+}
+
+.mainbtn:hover {
+    background: #6e0a0a;
+}
+
+.btn {
+    margin-bottom: 70px;
+}
+
+.pblock-25 {
+    padding-inline: 25px;
+}
+
+.footer7 {
+    color: #78858F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer7 i {
+    margin-right: 10px;
+}
+
+.hero7 {
+    margin-top: 50px;
+}
+
+.hero7 .date1 {
+    color: #78858F;
+    margin-block: 15px;
+}
+
+.hero7 .text {
+    margin-bottom: 50px;
+}
+
+.hero7 h2 {
+    font-weight: 700;
+    font-size: 29px;
+}
+
+/* card 8 */
+
+.ht8 {
+    height: 533px;
+}
+
+.hero8 {
+    padding-inline: 25px;
+}
+
+.hero8 .date1 {
+    color: #78858F;
+    margin-block: 15px;
+}
+
+.hero8 .text {
+    margin-bottom: 40px;
+}
+
+.hero8 h1 {
+    font-weight: 700;
+    font-size: 29px;
+    margin-top: 20px;
+}
+
+/* card 9 */
+
+.ht9 {
+    height: 377px;
+    background-color: #8DD4EB;
+}
+
+.header9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.header9 span {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 4;
+}
+
+.hero9 h1 {
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 43px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero9 p {
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.footer9 {
+    position: absolute;
+    top: 310px;
+    left: 25px;
+    bottom: 0;
+    right: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: black;
+    width: 90%;
+}
+
+.header9 .img1 {
+    position: absolute;
+    left: 45px;
+    z-index: 3;
+}
+
+.header9 .img2 {
+    position: absolute;
+    left: 67px;
+    z-index: 2;
+}
+
+/* card 10 */
+
+.ht10 {
+    height: 505.96px;
+}
+
+.profile10 {
+    display: flex;
+    align-items: center;
+}
+
+.profile10 .profile10-text h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.profile10 .profile10-text p {
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.footer10 {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 410px;
+}
+
+.footer10 p {
+   font-weight: 700;
+   font-size: 35px;
+   line-height: 23px;
+   padding-left: 25px;
+   padding-right: 130px;
+}
+
+.hero10 .img101 {
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 40px;
+}
+
+.hero10 .img102 {
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 20px;
+}
+
+/* card 11 */
+
+.ht11 {
+    height: 657.96px;
+}
+
+.header11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 30px;
+    padding-inline: 40px;
+}
+
+.main11 h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    padding-block: 20px;
+}
+
+.main11 p {
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.wine {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+
+.wine_bg {
+    padding-left: 60px;
+    padding-top: 70px;
+}
+
+.footer11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.footer11 .digits {
+    background: #F7F7F7;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.footer11 .digits span {
+    padding-inline: 10px;
+}
+
+.footer11 .digits .plus {
+    border-radius: 50%;
+    background: white;
+}
+
+/* card 12 */
+
+.ht12 {
+    height: 572.5px;
+}
+
+.header12 {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.header12 span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.header12 h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.03em;
+    color: #081F32;
+}
+
+.main12 h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25px;
+    color: #08A02A;
+    padding: 20px 0;
+}
+
+.main12 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.main12 li {
+    padding-block: 10px;
+    list-style: none;
+}
+
+.main12 li i {
+    color: #08A02A;
+    padding-right: 8px;
+}
+
+.btn12 {
+    background: #08A02A;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+}
+
+.btn12:hover {
+    background: #145e40;
+}
+
+.fbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* card 13 */
+
+.ht13 {
+    height: 455px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(1, 7, 9, 0.85) 85%), url("../img/hero_image13.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header13 {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+.profile13 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.icon13 i {
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+/* card 14 */
+
+.ht14 {
+    background: #070E13;
+    height: 288px;
+}
+
+.profile14 h1 {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #FFFFFF;
+    padding-block: 25px;
+}
+
+.header14 i {
+    color: #F8D000;
+    background: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.hero14 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding-block: 25px;
+}
+
+.footer14 {
+    padding-top: 20px;
+}
+
+.footer14 p {
+    color: white;
+}
+
+.footer14 i {
+    color: blue;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* card 15 */
+
+.ht15 {
+    height: 509px;
+    background: #18051B;
+    color: white;
+}
+
+.hero15 h1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.hero15 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    padding-block: 15px;
+}
+
+.footer15 .sign {
+    background: #A823F9;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 20px;
+}
+
+.footer15 {
+    padding-top: 60px;
+}
+
+.footer15 .price {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
